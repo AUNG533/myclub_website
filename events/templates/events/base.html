@@ -11,12 +11,14 @@
     <title>Hello, world!</title>
   </head>
   <body>
-  	{% include 'events/navbar.html' %}
-    
+    {% include 'events/navbar.html' %}
+     <br/>
+     <div class="container">
     {% block content %}
 
-	{% endblock %}
-
+    {% endblock %}
+    </div>
+    
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
